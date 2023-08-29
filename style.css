@@ -14,12 +14,14 @@ main {
     width: 960px;
     margin: 50px auto;
     display: flex;
-    justify-content: center;
+    
 }
 
 .main-contents {
+    width: 300px;
     margin-right: 30px;
     padding: 10px;
+    position: relative;
     background-color: #EEEEEE;
 }
 
@@ -50,7 +52,10 @@ main {
 
 .steps {
     position: absolute;
+    top: 0;
+    left: 0;
     background-color: #FF9A4B;
+    color: #ffffff;
 }
 
 .content-title {
